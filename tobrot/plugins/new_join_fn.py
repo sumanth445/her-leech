@@ -25,7 +25,7 @@ async def help_message_f(client, message):
     # display the /help
 
     await message.reply_text(
-        """Available Commands
+        """# Available Commands
 # /rclone: This will change your drive config on fly.(First one will be default)
 
 
@@ -77,5 +77,5 @@ async def help_message_f(client, message):
 
 # How to Use?
 # send any one of the available command, as a reply to a valid link/magnet/torrent. 👊""",
-        disable_web_page_preview=True,
+       # disable_web_page_preview=True,
     )
